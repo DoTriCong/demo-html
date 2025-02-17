@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: #fff;
+    text-align: center;
+    padding: 20px;
+}
+.container{
+    display: flex;
+    border: 1px solid black;
+    padding: 10px 10px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+.icon{
+    display: flex;
+    width: 24%;
+    background-color: greenyellow;
+    height: 50px;
+    border-radius: 5px;
+    text-align: center;
+   justify-content: center;
+   flex-direction: column;
+}   
+.icon-box{
+    display: flex;
+    background-color: greenyellow;
+    width: 49%;
+    height: 50px;
+    border-radius: 5px;
+    text-align: center;
+   justify-content: center;
+   flex-direction: column;
+}
